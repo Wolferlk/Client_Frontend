@@ -63,7 +63,7 @@ export default function Navbar() {
               transition={{ delay: 0.2, duration: 0.5 }}
             >
               <span className="text-2xl font-bold text-white">
-                <span className="text-purple-500">G</span>AMAGE <span className="text-purple-500">R</span>ECRUITERS
+                GAMAGE RECRUITERS
               </span>
             </motion.div>
           </motion.div>
