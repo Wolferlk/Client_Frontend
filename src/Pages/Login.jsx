@@ -20,11 +20,14 @@ export default function LoginPage() {
   };
   
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-100 via-blue-50 to-indigo-100">
-      <div className="relative w-full max-w-md p-10 overflow-hidden bg-white rounded-2xl shadow-xl">
+    
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-gray-900 via-indigo-800 to-purple-200">
+      
+      <div className="relative w-full max-w-md p-10 overflow-hidden bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl">
+      
         {/* Decorative elements */}
-        <div className="absolute top-0 left-0 w-40 h-40 bg-indigo-300 rounded-full -translate-x-16 -translate-y-16 opacity-20"></div>
-        <div className="absolute bottom-0 right-0 w-32 h-32 bg-purple-400 rounded-full translate-x-10 translate-y-10 opacity-20"></div>
+        <div className="absolute top-0 left-0 w-40 h-40 bg-indigo-500 rounded-full -translate-x-16 -translate-y-16 opacity-20"></div>
+        <div className="absolute bottom-0 right-0 w-32 h-32 bg-purple-600 rounded-full translate-x-10 translate-y-10 opacity-20"></div>
         
         {/* Login header */}
         <div className="relative mb-8 text-center">
@@ -69,7 +72,7 @@ export default function LoginPage() {
           
           <button
             type="submit"
-            className="flex items-center justify-center w-full px-6 py-3 text-white transition-all bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg hover:shadow-lg hover:shadow-indigo-200 transform hover:-translate-y-1"
+            className="flex items-center justify-center w-full px-6 py-3 text-white transition-all bg-gradient-to-r from-indigo-700 to-purple-700 rounded-lg hover:shadow-lg hover:shadow-indigo-900/20 transform hover:-translate-y-1"
           >
             <span>Sign In</span>
             <ArrowRight className="w-4 h-4 ml-2" />

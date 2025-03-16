@@ -374,7 +374,7 @@ const duplicatedPartners = [...partners, ...partners, ...partners];
           
           <div className="text-center mt-16">
             <Link 
-              to="/workshops-seminars" 
+              to="/workshop" 
               className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 shadow-md hover:from-purple-700 hover:to-indigo-700 transition-all duration-300"
             >
               View All Events <ArrowRight size={16} className="ml-2" />

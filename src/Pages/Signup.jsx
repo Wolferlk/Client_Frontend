@@ -81,19 +81,19 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50">
-      
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-b from-gray-900 via-indigo-800 to-purple-200">
+    
 
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">
           {/* Progress indicator */}
           <div className="mb-10">
-            <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6">
+            <h1 className="text-3xl md:text-4xl font-bold text-center text-white mb-6">
               Create Your Professional Profile
             </h1>
             
             <div className="flex justify-center mb-2">
-              <div className="text-sm font-medium text-gray-500">
+              <div className="text-sm font-medium text-white">
                 Step {currentStep} of {totalSteps}
               </div>
             </div>
@@ -102,7 +102,7 @@ export default function SignupPage() {
               {Array.from({ length: totalSteps }, (_, i) => (
                 <div key={i} className="flex flex-col items-center">
                   <div 
-                    className={`w-8 h-8 rounded-full flex items-center justify-center text-white text-sm font-medium 
+                    className={`w-8 h-8 rounded-full flex items-center justify-center text-black text-sm font-medium 
                     ${i + 1 < currentStep ? 'bg-green-500' : i + 1 === currentStep ? 'bg-blue-600' : 'bg-gray-300'}`}
                   >
                     {i + 1 < currentStep ? <FaCheck /> : i + 1}
