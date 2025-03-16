@@ -14,6 +14,7 @@ import Dashboard from './Pages/Dashboard';
 import Application from './Pages/Application';
 import BlogPage from './Pages/BlogPage';
 import BlogDetailsPage from './Pages/BlogDetailsPage';
+import TrustedPartners from './Pages/TrustedPartners';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/application" element={<Application />} />
+            <Route path="/trusted-partners" element={<TrustedPartners />} />  
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:blogid" element={<BlogDetailsPage/>} />
           </Routes>
