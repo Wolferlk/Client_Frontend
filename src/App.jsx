@@ -15,6 +15,7 @@ import Application from './Pages/Application';
 import BlogPage from './Pages/BlogPage';
 import BlogDetailsPage from './Pages/BlogDetailsPage';
 import TrustedPartners from './Pages/TrustedPartners';
+import WorkshopsAndSeminarsPage from './Pages/WorkshopsAndSeminarsPage';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/trusted-partners" element={<TrustedPartners />} />  
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:blogid" element={<BlogDetailsPage/>} />
+            <Route path="/workshop" element={<WorkshopsAndSeminarsPage />} />
           </Routes>
         </main>
         <Footer />
