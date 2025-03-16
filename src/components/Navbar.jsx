@@ -73,7 +73,7 @@ export default function Navbar() {
               transition={{ delay: 0.2, duration: 0.5 }}
             >
               <span className="text-2xl font-bold text-white">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-400">GAMAGE</span> RECRUITERS
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-400"></span>GAMAGE RECRUITERS
               </span>
             </motion.div>
           </motion.div>
